@@ -6,19 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_0d3cb18a49eec99"
   },
   "dependencies": {
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@storybook/addon-essentials": "^7.6.3",
+    "@storybook/addon-interactions": "^7.6.3",
+    "@storybook/addon-links": "^7.6.3",
+    "@storybook/addon-onboarding": "^1.0.9",
+    "@storybook/blocks": "^7.6.3",
+    "@storybook/nextjs": "^7.6.3",
+    "@storybook/react": "^7.6.3",
+    "@storybook/test": "^7.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "chromatic": "^10.0.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
-  }
+    "eslint-config-next": "14.0.3",
+    "eslint-plugin-storybook": "^0.6.15",
+    "storybook": "^7.6.3",
+    "typescript": "^5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "sb-example@0.1.0"
 }
